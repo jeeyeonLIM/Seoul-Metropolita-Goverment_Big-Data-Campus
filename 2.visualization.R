@@ -601,7 +601,7 @@
 ####### MAP ################################################
 #### map  ####
     
-    # AIzaSyBMIgVnbPgsXv8LgljlesIn6-ulN_mZ1ew
+    
     library(ggmap)
     library(ggplot2)
     library(raster)
@@ -632,7 +632,7 @@
     cent = c(mean(dat_all$lat),mean(dat_all$lon))
     bmap <- ggmap(get_navermap(center = cent, level = 6, baselayer = "default",
                   overlayers = c("anno_satellite"), marker = data.frame(cent[1], cent[2]),
-                  key = "AIzaSyCOGOjnN1pOl8FmyscQhF5Nvn7KvN31Eb4", uri = "www.r-project.org"), extent = "device",
+                  key = "mykey", uri = "www.r-project.org"), extent = "device",
                   base_layer = ggplot(dat_all, aes(x = lon, y = lat, colour = gu)))
     
 
