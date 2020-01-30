@@ -607,7 +607,7 @@
     library(raster)
     
     # 구글 지도 API 인증키를 등록
-    register_google(key ='AIzaSyCOGOjnN1pOl8FmyscQhF5Nvn7KvN31Eb4')
+    register_google(key ='mykey')
     
     # 한번 그래프 그려볼까
     ggmap(get_map(location='south korea', zoom=7))
