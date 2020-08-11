@@ -80,7 +80,7 @@
 #### 1. 1년 내 폐업할 카페 예측 및 폐업 원인 분석
 - 2015년 4월 ~ 2018년 5월에 폐업한 8312개 카페에 대해서 총 영업 일수 그래프를 그려본 결과 1년, 2년 단위로 다수 폐업하는 것을 알 수 있었음
 <p align="center">
-  <img src="">
+  <img src="https://user-images.githubusercontent.com/45617225/89879249-9b7b9d80-dbfd-11ea-81a9-005fc452afc4.png">
 </p>
 - 이는 임대차 계약이 1년 단위로 이루어지기 때문이라고 짐작했으며, 1년 영업 후 폐업한 곳이 가장 높았기 때문에 우리의 반응변수(Y)를 '1년 내 폐업 여부' 로 설정함
 - Logistic Regression(Ridge, Lasso), SVM, Random Forest 등 분류 모형 이용해 적합 후 해석
@@ -89,7 +89,7 @@
 - 2015년에 개업한 카페 대상으로 Cox-PHM 모형을 통한 위험률 및 생존확률의 변화 예측
 - 아래는 시뮬레이션을 통한 생존 확률의 변화
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/45617225/89879249-9b7b9d80-dbfd-11ea-81a9-005fc452afc4.png">
+  <img src="https://user-images.githubusercontent.com/45617225/89879416-e3022980-dbfd-11ea-9c9d-2aec622a81a1.png">
 </p>
 
 ### 4. 서비스 활용 방안 제시 
