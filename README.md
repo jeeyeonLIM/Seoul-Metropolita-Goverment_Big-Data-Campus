@@ -124,5 +124,10 @@
 
 ### 본선 발표(2019.11.29) - 결과 : 장려상 수상
 <p align="center">
-  <img width="450" height="350" src="https://ifh.cc/g/s4EK3.jpg">
+  <img width="450" height="350" src="https://user-images.githubusercontent.com/45617225/89878476-8ce0b680-dbfc-11ea-8055-708932120a6e.png">
 </p>
+
+
+
+
+
