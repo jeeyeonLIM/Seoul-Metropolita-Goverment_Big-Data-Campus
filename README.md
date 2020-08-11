@@ -74,11 +74,13 @@
 - Clustering을 진행하기 전 기준 변수에 대한 고민을 했고, 소상공인의 입장에서 창업 전 가장 중요하게 여기는 '임대료', '매출액'을 기준으로 군집화함
 - ![](https://ifh.cc/g/PmEby.png)
 
+
+
 ### 3. Modeling
 #### 1. 1년 내 폐업할 카페 예측 및 폐업 원인 분석
 - 2015년 4월 ~ 2018년 5월에 폐업한 8312개 카페에 대해서 총 영업 일수 그래프를 그려본 결과 1년, 2년 단위로 다수 폐업하는 것을 알 수 있었음
 <p align="center">
-  <img src="https://ifh.cc/g/9ld6M.png">
+  <img src="https://user-images.githubusercontent.com/45617225/89878687-d6310600-dbfc-11ea-9d1a-04090aeb61d7.png">
 </p>
 - 이는 임대차 계약이 1년 단위로 이루어지기 때문이라고 짐작했으며, 1년 영업 후 폐업한 곳이 가장 높았기 때문에 우리의 반응변수(Y)를 '1년 내 폐업 여부' 로 설정함
 - Logistic Regression(Ridge, Lasso), SVM, Random Forest 등 분류 모형 이용해 적합 후 해석
@@ -95,7 +97,7 @@
 - Random Forest 모형 적합 후 Partial Dependence Plot(머신러닝 모형에서 개별적인 설명변수가 예측 결과에 미치는 영향을 나타냄)을 바탕으로 입지 추천해주기
 - 서울시에서 창업 교육 시 입지 추천 컨설팅을 통해 폐업률이 낮은 좋은 위치를 추천해줘서 오래 장사할 수 있는 환경 제공하기
 <p align="center">
-  <img src="https://ifh.cc/g/Afr0K.jpg">
+  <img src="https://user-images.githubusercontent.com/45617225/89878723-e0eb9b00-dbfc-11ea-9f78-f7ac585ee594.png">
 </p>
 
 
@@ -104,7 +106,7 @@
 - 기존 점주에게는 폐업률을 알려주며, 서울시에서 폐업 위험도가 높은 카페를 대상으로 추첨을 통해 지역 인테리어 업체와 제휴하여 무료 리모델링 행사를 진행하기
 - 카페 소상공인, 지역 인테리어 업체 모두 윈윈하는 효과를 얻을 수 있고, 지역 경제 활성화에 기여할 수 있음
 <p align="center">
-  <img src="https://ifh.cc/g/bsGG6.png">
+  <img src="https://user-images.githubusercontent.com/45617225/89878753-eba63000-dbfc-11ea-902c-98e41a7ecc0c.png">
 </p>
 
 ##### 분석 도구 
