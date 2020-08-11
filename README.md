@@ -72,7 +72,7 @@
 - 전체 행정구를 대상으로 모델링을 진행해 본 결과, Random Forest가 가장 우수했고 변수 중요도 그래프를 그렸을 때, '행정구' 영향이 가장 컸음
 - 따라서 행정구별 폐업률에 차이가 커 행정구별 특성을 상쇄하기 위해 같은 특성의 행정구를 군집화함
 - Clustering을 진행하기 전 기준 변수에 대한 고민을 했고, 소상공인의 입장에서 창업 전 가장 중요하게 여기는 '임대료', '매출액'을 기준으로 군집화함
-- ![](https://ifh.cc/g/PmEby.png)
+- ![](https://user-images.githubusercontent.com/45617225/89878687-d6310600-dbfc-11ea-9d1a-04090aeb61d7.png)
 
 
 
@@ -80,7 +80,7 @@
 #### 1. 1년 내 폐업할 카페 예측 및 폐업 원인 분석
 - 2015년 4월 ~ 2018년 5월에 폐업한 8312개 카페에 대해서 총 영업 일수 그래프를 그려본 결과 1년, 2년 단위로 다수 폐업하는 것을 알 수 있었음
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/45617225/89878687-d6310600-dbfc-11ea-9d1a-04090aeb61d7.png">
+  <img src="">
 </p>
 - 이는 임대차 계약이 1년 단위로 이루어지기 때문이라고 짐작했으며, 1년 영업 후 폐업한 곳이 가장 높았기 때문에 우리의 반응변수(Y)를 '1년 내 폐업 여부' 로 설정함
 - Logistic Regression(Ridge, Lasso), SVM, Random Forest 등 분류 모형 이용해 적합 후 해석
@@ -89,7 +89,7 @@
 - 2015년에 개업한 카페 대상으로 Cox-PHM 모형을 통한 위험률 및 생존확률의 변화 예측
 - 아래는 시뮬레이션을 통한 생존 확률의 변화
 <p align="center">
-  <img src="https://ifh.cc/g/MxXdi.png">
+  <img src="https://user-images.githubusercontent.com/45617225/89879249-9b7b9d80-dbfd-11ea-81a9-005fc452afc4.png">
 </p>
 
 ### 4. 서비스 활용 방안 제시 
